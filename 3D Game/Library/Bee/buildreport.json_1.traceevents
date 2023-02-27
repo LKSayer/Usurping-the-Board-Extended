@@ -1,0 +1,540 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1676885669423912, "dur": 3085011, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676885669423932, "dur": 4083, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676885669428016, "dur": 51072, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676885669479090, "dur": 486899, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676885669965991, "dur": 2542403, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676885672508398, "dur": 525, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676885672509840, "dur": 24, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1676885669666290, "dur": 277221, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676885669668318, "dur": 94149, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676885669915123, "dur": 8433, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676885669923562, "dur": 19932, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676885669925511, "dur": 16318, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676885669950888, "dur": 2157, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676885669949658, "dur": 3428, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676885672510017, "dur": 369, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1676885670025736, "dur":2158, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676885670027904, "dur":83, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1676885670028011, "dur":22, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1676885670028035, "dur":477, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1676885670028552, "dur":1255, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676885670029807, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676885672491557, "dur":346, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676885672491903, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676885672491924, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676885672491928, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676885672491939, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676885672491941, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676885672491950, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676885672491951, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676885672491959, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676885672491961, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676885672491983, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676885672491985, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676885672491992, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676885672491994, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676885672492000, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676885672492002, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676885672492010, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676885672492024, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676885672492155, "dur":3289, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1676885670029056, "dur":784, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676885670029840, "dur":7543, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676885670037393, "dur":152581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1676885670189983, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676885670191960, "dur":3427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1676885670195465, "dur":1163844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676885671359316, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676885671359327, "dur":38391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676885671397808, "dur":533908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676885671931724, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676885671931737, "dur":2157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676885671933968, "dur":178051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676885672112025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676885672112036, "dur":4869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676885672116986, "dur":6194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676885672123186, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676885672123198, "dur":1757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676885672125041, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1676885672125253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676885672125832, "dur":1447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1676885672127350, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1676885672127424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676885672127432, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1676885672128992, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1676885672129073, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676885672129081, "dur":2588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1676885672131744, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1676885672131948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676885672131957, "dur":1429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1676885672133457, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1676885672133611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676885672133621, "dur":2216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1676885672135922, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1676885672136010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676885672136021, "dur":1601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1676885672137694, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1676885672137763, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676885672137771, "dur":1789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/level1.resS" }}
+,{ "pid":12345, "tid":1, "ts":1676885672139639, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1676885672139718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676885672139727, "dur":1430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1676885672141226, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1676885672141434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676885672141442, "dur":2289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1676885672143802, "dur":347753, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885670029043, "dur":786, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885670029835, "dur":7535, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885670037394, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1676885670037401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885670043126, "dur":1737, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1676885670044868, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1676885670044969, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885670047207, "dur":11395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1676885670058605, "dur":12374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1676885670070987, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885670071003, "dur":1536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1676885670072625, "dur":117361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1676885670189991, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885670190006, "dur":1652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1676885670191749, "dur":220125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885670411883, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885670412032, "dur":8982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885670421102, "dur":58899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885670480008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885670480081, "dur":4820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885670484976, "dur":37133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885670522115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885670522126, "dur":6657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885670528867, "dur":27871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885670556745, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885670556791, "dur":2236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885670559115, "dur":126978, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885670686142, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885670686155, "dur":27248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885670713491, "dur":198532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885670912032, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885670912045, "dur":43524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885670955654, "dur":23915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885670979579, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885670979595, "dur":2784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885670982467, "dur":82476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671064952, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885671064965, "dur":1818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671066878, "dur":39983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671106869, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885671106882, "dur":5259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671112224, "dur":32292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671144522, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885671144535, "dur":4938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671149554, "dur":51394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671200987, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885671201000, "dur":1475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671202588, "dur":26795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671229391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885671229404, "dur":2073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671231567, "dur":24660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671256235, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885671256259, "dur":1730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671258064, "dur":52134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671310203, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885671310215, "dur":1900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671312194, "dur":90463, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671402665, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885671402678, "dur":1936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671404687, "dur":83388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671488082, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885671488095, "dur":1759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671489929, "dur":1112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671491047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885671491058, "dur":1771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671492932, "dur":53523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671546461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885671546473, "dur":1587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671548138, "dur":137526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671685669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885671685680, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671687540, "dur":146451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671833999, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885671834012, "dur":2039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885671836132, "dur":285842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885672121981, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885672121995, "dur":4176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676885672126255, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1676885672126341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885672126420, "dur":2197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1676885672128699, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1676885672128777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885672128786, "dur":2021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1676885672130887, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1676885672130961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885672130971, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1676885672133194, "dur":1217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1676885672134416, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885672134430, "dur":1605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1676885672136123, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1676885672136203, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885672136212, "dur":1905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1676885672138193, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1676885672138269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885672138278, "dur":2083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1676885672140434, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1676885672140516, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676885672140524, "dur":2507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1676885672143111, "dur":348450, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676885670029225, "dur":640, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676885670029865, "dur":7650, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676885670037518, "dur":262, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1676885670037785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676885670054355, "dur":557617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1676885670612057, "dur":48787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676885670660849, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676885670660860, "dur":20694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676885670681636, "dur":176185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676885670857852, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676885670857867, "dur":19068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676885670877018, "dur":78508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676885670955534, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676885670955569, "dur":32768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676885670988864, "dur":170683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676885671161150, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676885671161164, "dur":16208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676885671177456, "dur":26351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676885671203814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676885671203828, "dur":24342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676885671228247, "dur":72851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676885671301106, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676885671301120, "dur":8453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676885671309657, "dur":185726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676885671495390, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676885671495404, "dur":2933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676885671498409, "dur":2159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676885671500576, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676885671500589, "dur":1536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676885671502195, "dur":181126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676885671683329, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676885671683342, "dur":1817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676885671685238, "dur":91468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676885671776714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676885671776727, "dur":1900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676885671778702, "dur":268671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676885672047382, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676885672047395, "dur":2244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676885672049722, "dur":306146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676885672355874, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676885672355883, "dur":1820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676885672357764, "dur":133857, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676885670029103, "dur":745, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676885670029848, "dur":7539, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676885670037394, "dur":13861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1676885670051262, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676885670051671, "dur":4998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1676885670056765, "dur":17925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1676885670074738, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676885670074753, "dur":2678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1676885670077508, "dur":112503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1676885670190017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676885670190027, "dur":20870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1676885670210975, "dur":92989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game.exe" }}
+,{ "pid":12345, "tid":4, "ts":1676885670303971, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676885670303982, "dur":2485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game.exe" }}
+,{ "pid":12345, "tid":4, "ts":1676885670306542, "dur":100545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885670407095, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676885670407109, "dur":1852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885670409030, "dur":63170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885670472206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676885670472218, "dur":6854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885670479152, "dur":200231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885670679391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676885670679405, "dur":36410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885670715892, "dur":202095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885670917992, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676885670918031, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885670919517, "dur":65508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885670985033, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676885670985047, "dur":1751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885670986876, "dur":88083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885671074966, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676885671074980, "dur":36812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885671111887, "dur":24367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885671136290, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676885671136303, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885671137886, "dur":58121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885671196013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676885671196025, "dur":8861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885671204956, "dur":22999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885671227962, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676885671227975, "dur":1889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885671229938, "dur":61270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885671291216, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676885671291231, "dur":1817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885671293129, "dur":105258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885671398393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676885671398405, "dur":1664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885671400147, "dur":13003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885671413157, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676885671413171, "dur":1695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885671414957, "dur":53123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885671468089, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676885671468102, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885671469889, "dur":36107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885671506003, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676885671506017, "dur":2943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885671509039, "dur":398112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885671907159, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676885671907173, "dur":4849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885671912102, "dur":197675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885672109785, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676885672109798, "dur":2369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885672112272, "dur":226134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885672338414, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676885672338428, "dur":2002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676885672340498, "dur":151069, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676885670029166, "dur":689, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676885670029856, "dur":7725, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676885670037582, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1676885670037784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676885670054211, "dur":21489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1676885670075895, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1676885670076156, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676885670076170, "dur":596100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1676885670672364, "dur":39179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676885670711551, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676885670711564, "dur":2207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676885670713874, "dur":135153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676885670849034, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676885670849112, "dur":2851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676885670852042, "dur":62244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676885670914295, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676885670914308, "dur":1672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676885670916059, "dur":72374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676885670988438, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676885670988450, "dur":1817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676885670990344, "dur":101631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676885671091983, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676885671091996, "dur":18716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676885671110793, "dur":147410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676885671258210, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676885671258225, "dur":2023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676885671260321, "dur":42326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676885671302654, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676885671302667, "dur":1775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676885671304516, "dur":134568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676885671439091, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676885671439103, "dur":2033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676885671441208, "dur":65679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676885671506958, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676885671506972, "dur":7118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676885671514171, "dur":235877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676885671750056, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676885671750070, "dur":1789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676885671751939, "dur":105799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676885671857744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676885671857755, "dur":1524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676885671859348, "dur":274027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676885672133380, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676885672133397, "dur":2795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676885672136284, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1676885672136384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676885672136393, "dur":1807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1676885672138276, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1676885672138350, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676885672138358, "dur":1899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1676885672140327, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1676885672140406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676885672140414, "dur":3297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1676885672143786, "dur":347793, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676885670029329, "dur":545, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676885670029874, "dur":7613, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676885670037490, "dur":14255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1676885670051750, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676885670051774, "dur":4904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1676885670056770, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1676885670056970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676885670057078, "dur":4666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1676885670061836, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1676885670062033, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676885670062703, "dur":3886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1676885670066693, "dur":12956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1676885670079662, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676885670079680, "dur":111014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1676885670190785, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1676885670190964, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676885670190976, "dur":9506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1676885670200565, "dur":144658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1676885670345230, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676885670345247, "dur":3551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1676885670348903, "dur":41031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676885670389988, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676885670390744, "dur":18936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676885670409765, "dur":63767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676885670473547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676885670473560, "dur":6876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676885670480514, "dur":40504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676885670521031, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676885670521042, "dur":3621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676885670524749, "dur":26055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676885670551286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676885670551299, "dur":7719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676885670559103, "dur":101272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676885670660381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676885670660394, "dur":1600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676885670662075, "dur":421510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676885671083592, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676885671083605, "dur":52076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676885671135768, "dur":58005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676885671193780, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676885671193794, "dur":1715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676885671195593, "dur":247015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676885671442615, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676885671442627, "dur":2992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676885671445709, "dur":3921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676885671449639, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676885671449663, "dur":1906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676885671451649, "dur":92666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676885671544321, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676885671544334, "dur":1752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676885671546160, "dur":234723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676885671780891, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676885671780932, "dur":2411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676885671783421, "dur":445287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676885672228716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676885672228728, "dur":3951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676885672232765, "dur":258826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676885670029467, "dur":414, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676885670029881, "dur":7514, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676885670037398, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1676885670037651, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676885670041193, "dur":19700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1676885670060998, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1676885670061204, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676885670061218, "dur":598712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1676885670660033, "dur":260152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676885670920192, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676885670920207, "dur":2994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676885670923282, "dur":97994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676885671021285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676885671021300, "dur":13704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676885671035088, "dur":32481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676885671067575, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676885671067587, "dur":2693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676885671070366, "dur":71648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676885671142022, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676885671142037, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676885671143846, "dur":62483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676885671206335, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676885671206442, "dur":2582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676885671209103, "dur":26872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676885671235982, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676885671235995, "dur":1641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676885671237715, "dur":77452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676885671315174, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676885671315187, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676885671317050, "dur":142925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676885671459983, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676885671459996, "dur":1776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676885671461850, "dur":8411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676885671470267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676885671470279, "dur":2425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676885671472785, "dur":68635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676885671541427, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676885671541440, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676885671543121, "dur":424954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676885671968083, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676885671968096, "dur":2992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676885671971166, "dur":217787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676885672188961, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676885672188974, "dur":3434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676885672192494, "dur":299116, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885670029682, "dur":207, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885670029889, "dur":7496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885670037394, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1676885670037693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885670053551, "dur":13061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1676885670066716, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1676885670066911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885670067020, "dur":124507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1676885670191602, "dur":99241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670290851, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885670291281, "dur":2185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670293553, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1676885670293777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885670294284, "dur":26528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1676885670320903, "dur":29633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670350543, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885670351050, "dur":2406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670353543, "dur":61593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670415146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885670415171, "dur":1824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670417080, "dur":52788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670469876, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885670469922, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670471751, "dur":48624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670520383, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885670520397, "dur":7396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670527876, "dur":40796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670568680, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885670568774, "dur":3073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670571926, "dur":23983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670595917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885670595931, "dur":29305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670625316, "dur":111283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670736606, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885670736619, "dur":2154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670738862, "dur":23465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670762335, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885670762349, "dur":1967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670764401, "dur":80462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670844983, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885670844998, "dur":25123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670870230, "dur":44498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670914744, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885670914760, "dur":3189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670918031, "dur":32245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670950284, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885670950298, "dur":5861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670956236, "dur":30707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670986977, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885670986990, "dur":1516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885670988576, "dur":51656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885671040241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885671040255, "dur":1733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885671042059, "dur":53061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885671095128, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885671095141, "dur":16799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885671112021, "dur":22973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885671135001, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885671135014, "dur":1767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885671136863, "dur":105448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885671242319, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885671242332, "dur":1829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885671244235, "dur":265632, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885671510011, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885671510025, "dur":1643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885671511749, "dur":128318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885671640075, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885671640088, "dur":1570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885671641736, "dur":213677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885671855555, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885671855569, "dur":1748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885671857396, "dur":114826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885671972227, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885671972239, "dur":1578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885671973887, "dur":68198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885672042093, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885672042106, "dur":1815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885672043994, "dur":442366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885672486365, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676885672486375, "dur":5074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Liam/OneDrive/Documents/Usurping the Board/3D Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676885672491497, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1676885672491500, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676885672498373, "dur":3834, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1676885672510507, "dur": 3134, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676885672509816, "dur": 3872, "ph": "X", "name": "Write chrome-trace events", "args": {} },
